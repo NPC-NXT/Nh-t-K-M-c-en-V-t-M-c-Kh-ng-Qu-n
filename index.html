@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhật Ký Mực Đen – Vết Mực Không Quên</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Logo cố định -->
+    <img src="logo.png" class="logo" alt="logo">
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Nhật Ký Mực Đen</h1>
+            <h2>Vết Mực Không Quên</h2>
+            <p>Một câu chuyện trinh thám – kinh dị về ký ức bị xóa, giọng nói thì thầm và cuốn sổ nhuốm mực.</p>
+        </div>
+    </section>
+
+    <!-- SUMMARY SECTION -->
+    <section class="summary">
+        <h2>Tóm tắt câu chuyện</h2>
+        <p>
+            Nam tỉnh dậy với đôi tay dính mực và ký ức bị xóa sạch. Một mảnh giấy trong túi anh viết:
+            <i>“Hãy tìm cuốn sổ. Đừng tin ký ức.”</i>  
+            Cuộc điều tra đưa anh đến những bí mật đen tối về các vụ mất trí và cuốn sổ ghi chép có khả năng thay đổi ký ức con người.
+        </p>
+    </section>
+
+    <!-- ELEMENTS SECTION -->
+    <section class="elements">
+        <h2>Yếu tố Trinh thám – Kinh dị</h2>
+
+        <div class="box-container">
+            <div class="box">
+                <h3>Clues</h3>
+                <p>Mảnh ảnh rách, sổ mực, camera hỏng, tiếng thì thầm trong băng ghi âm.</p>
+            </div>
+
+            <div class="box">
+                <h3>Fear</h3>
+                <p>Ký ức bị xóa, giọng nói vô hình, cảm giác bị theo dõi, bóng tối len lỏi.</p>
+            </div>
+
+            <div class="box">
+                <h3>Twist</h3>
+                <p>Nam chính là người trong danh sách cuối cùng của cuốn sổ. Ký ức anh đã bị viết lại.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- APP SECTION -->
+    <section class="app">
+        <h2>Random Clue Generator</h2>
+        <p>Tạo manh mối hoặc twist cho câu chuyện bằng AI.</p>
+
+        <button onclick="showClue()">Tạo manh mối</button>
+        <button onclick="showTwist()">Tạo twist</button>
+
+        <div id="output" class="output-box">Kết quả sẽ xuất hiện ở đây...</div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
